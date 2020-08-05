@@ -13,7 +13,7 @@ let age6 = 23; //can change
 
 name6 = 'Jane Miller';
 console.log(name6);
-*/
+
 
 // ES5
 function driversLicense5(passedTest) {
@@ -40,3 +40,18 @@ function driversLicense6(passedTest) {
 }
 
 driversLicense6(true);
+
+*/
+
+/*
+//Lecture: Blocks and IIFEs
+
+//ES6
+{
+    let a = 1;
+    let b = 2;
+    var c = 3;
+}
+
+console.log(c);
+*/
