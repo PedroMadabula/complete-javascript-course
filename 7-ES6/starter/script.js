@@ -55,3 +55,19 @@ driversLicense6(true);
 
 console.log(c);
 */
+
+//Lecture: Strings 
+
+let firstName = "john";
+let lastName = "Smith";
+const yearOfBirth = 1990;
+
+function calcAge(year) {
+    return 2016 - year;
+}
+
+//ES5 
+console.log("This is " + firstName + " " + lastName + ", He was born in " + yearOfBirth + ". Today, he is " + calcAge(yearOfBirth) + " years old.");
+
+//ES6
+console.log(`This is ${firstName}${lastName}. He was born in ${yearOfBirth}. Today he is ${calcAge(yearOfBirth)} years old.`)
